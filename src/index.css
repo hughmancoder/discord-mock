@@ -13,7 +13,7 @@
   .sidebar-icon {
     @apply relative flex items-center justify-center 
     h-12 w-12 mt-2 mb-2 mx-auto  
-  bg-gray-400 hover:bg-green-600 dark:bg-gray-800 
+  bg-gray-400 hover:bg-green-600 dark:bg-gray-700 
   text-green-500 hover:text-white
     hover:rounded-xl rounded-3xl
     transition-all duration-300 ease-linear
@@ -37,7 +37,7 @@
     @apply flex flex-row items-center justify-evenly 
     bg-gray-300 dark:bg-gray-700 bg-opacity-90 
     w-full h-16 
-    m-0 
+    m-0
     shadow-lg;
   }
 
@@ -55,7 +55,7 @@
 
   .title-hashtag {
     @apply text-lg tracking-wider font-semibold text-gray-500 
-    ml-2 my-auto;
+    ml-20 my-auto;
   }
 
   .title-text {

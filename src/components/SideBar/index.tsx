@@ -4,8 +4,8 @@ const SideBar = () => {
   return (
     <div
       className="fixed top-0 left-0 h-screen w-16 flex flex-col
-                  bg-gray-100 text-gray-900
-                   dark:bg-gray-900 dark:text-gray-100
+                  bg-gray-200 text-gray-900
+                   dark:bg-gray-800 dark:text-gray-100
                    shadow-lg"
     >
       <SideBarIcon icon={<FaFire size="28" />} />
@@ -19,7 +19,13 @@ const SideBar = () => {
   );
 };
 
-const SideBarIcon = ({ icon, text = "tooltip 💡" } : { icon : any, text?: string}) => (
+const SideBarIcon = ({
+  icon,
+  text = "tooltip 💡",
+}: {
+  icon: any;
+  text?: string;
+}) => (
   <div className="sidebar-icon group">
     {icon}
     <span className="sidebar-tooltip group-hover:scale-100">{text}</span>
