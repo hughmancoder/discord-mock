@@ -1,12 +1,12 @@
-# discord-mock
+# Discord Mock
+A frontend imitation of Discord's UI 
 
-## Tools
+## Built with 
 
 - Tailwind css
-- Vite
 - React Ts
 
-## Visual demos
+## Demos
 
 ![Night theme](src/assets/night.png)
 
